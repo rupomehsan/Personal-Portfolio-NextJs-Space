@@ -695,7 +695,7 @@ export const AboutContent = () => {
                       <div className="absolute w-6 h-[2px] bg-cyan-500/50 -left-[2px] top-1.5"></div>
                       <p className="text-cyan-400 text-xs font-bold tracking-widest uppercase mb-1 flex items-center gap-2 font-mono">
                         <span className="text-orange-400">&gt;</span> 2015 -
-                        2020
+                        2019
                       </p>
                       <h3 className="text-white text-lg font-bold tracking-wider mb-1 font-mono group-hover:text-cyan-300 transition-colors">
                         B.Sc in Computer Science & Engineering
@@ -703,12 +703,43 @@ export const AboutContent = () => {
                       <p className="text-orange-300 text-sm font-mono mb-2">
                         Bangladesh Institute of Science and Technology (BIST)
                       </p>
-                      <p className="text-slate-300 text-xs leading-relaxed max-w-[600px] bg-[#020617]/50 p-3 rounded backdrop-blur-sm border-l-2 border-orange-500/50 mt-2">
-                        CGPA: 2.77 / 4.00
-                      </p>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-3 text-slate-300 text-sm font-mono">
+                        <div className="bg-[#020617]/60 border border-cyan-500/10 rounded p-3">
+                          <p className="text-cyan-400 text-[10px] uppercase tracking-[0.25em] mb-1 font-bold">
+                            Core Focus
+                          </p>
+                          <p className="leading-relaxed">
+                            Programming fundamentals, data structures, algorithms, database systems, and software engineering.
+                          </p>
+                        </div>
+                        <div className="bg-[#020617]/60 border border-orange-500/10 rounded p-3">
+                          <p className="text-orange-300 text-[10px] uppercase tracking-[0.25em] mb-1 font-bold">
+                            Thesis / Project
+                          </p>
+                          <p className="leading-relaxed">
+                            Final-year academic project work focused on applying software engineering concepts to practical, database-driven solutions.
+                          </p>
+                        </div>
+                        <div className="bg-[#020617]/60 border border-cyan-500/10 rounded p-3">
+                          <p className="text-cyan-400 text-[10px] uppercase tracking-[0.25em] mb-1 font-bold">
+                            Learning Outcome
+                          </p>
+                          <p className="leading-relaxed">
+                            Built a strong problem-solving mindset that now supports full-stack development and project management.
+                          </p>
+                        </div>
+                        <div className="bg-[#020617]/60 border border-orange-500/10 rounded p-3">
+                          <p className="text-orange-300 text-[10px] uppercase tracking-[0.25em] mb-1 font-bold">
+                            Duration
+                          </p>
+                          <p className="leading-relaxed">
+                            2015 - 2020
+                          </p>
+                        </div>
+                      </div>
                     </div>
 
-                    <div className="border-l-[3px] border-cyan-500/50 pl-6 relative">
+                    {/* <div className="border-l-[3px] border-cyan-500/50 pl-6 relative">
                       <div className="absolute w-[14px] h-[14px] bg-cyan-950 border-2 border-cyan-400 rounded-full -left-[9px] top-0 shadow-[0_0_15px_rgba(34,211,238,0.8)] z-10 flex items-center justify-center">
                         <div className="w-1.5 h-1.5 bg-cyan-200 rounded-full animate-pulse"></div>
                       </div>
@@ -723,9 +754,7 @@ export const AboutContent = () => {
                       <p className="text-orange-300 text-sm font-mono mb-2">
                         Tamirul Millat Kamil Madrasha, Jatrabari, Dhaka
                       </p>
-                      <p className="text-slate-300 text-xs leading-relaxed max-w-[600px] bg-[#020617]/50 p-3 rounded backdrop-blur-sm border-l-2 border-orange-500/50 mt-2">
-                        GPA: 4.92 / 5.00
-                      </p>
+                     
                     </div>
 
                     <div className="border-l-[3px] border-cyan-500/50 pl-6 relative">
@@ -743,10 +772,8 @@ export const AboutContent = () => {
                       <p className="text-orange-300 text-sm font-mono mb-2">
                         Muradpur Islamia Alim Madrasha, Jurain, Dhaka
                       </p>
-                      <p className="text-slate-300 text-xs leading-relaxed max-w-[600px] bg-[#020617]/50 p-3 rounded backdrop-blur-sm border-l-2 border-orange-500/50 mt-2">
-                        GPA: 4.69 / 5.00
-                      </p>
-                    </div>
+                     
+                    </div> */}
                   </div>
                 </motion.div>
               )}
@@ -813,10 +840,10 @@ export const AboutContent = () => {
                     <div className="absolute inset-0 bg-gradient-to-br from-green-400/5 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
                     <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-green-500/30 opacity-0 group-hover:opacity-100 transition-all z-10 m-2"></div>
                     <h3 className="text-green-300 text-sm font-bold uppercase tracking-widest mb-3 flex items-center gap-2 border-b border-green-500/30 pb-2 font-mono group-hover:text-white transition-colors">
-                      <span className="text-lg text-green-500 group-hover:text-green-300">📱</span> Mobile Application
+                      <span className="text-lg text-green-500 group-hover:text-green-300">📱</span>  Mobile Application
                     </h3>
                     <p className="text-slate-400 text-xs leading-relaxed">
-                      Developing cross-platform mobile applications with smooth, native-like experiences using React Native — enabling businesses to reach users on both iOS and Android.
+                      Developing WebView-based mobile applications that wrap responsive web experiences in a clean app shell, giving businesses a fast way to launch on  Android.
                     </p>
                   </div>
 

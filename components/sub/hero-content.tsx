@@ -345,7 +345,7 @@ export const HeroContent = () => {
                 repeatDelay: 2,
               }}
             >
-              MD. ABU AHSAN
+              MD. EHSAN
             </motion.div>
             <motion.span
               animate={{ opacity: [1, 0] }}
